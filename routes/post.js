@@ -13,7 +13,7 @@ const router = express.Router();
 
 router.get('/',(req,res,next) => {
 
-	res.send('Hello world!');
+	res.send('Hello');
 });
 
 router.get('/home', (req, res, next) =>{
@@ -22,5 +22,3 @@ router.get('/home', (req, res, next) =>{
 });
 
 module.exports = router;
-
-
